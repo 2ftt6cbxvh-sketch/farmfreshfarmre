@@ -181,7 +181,7 @@ export const storage = new DatabaseStorage();
 
 /* ------------------------------ Seeding ----------------------------- */
 const ADMIN_EMAIL = "admin@farmfreshfarmer.com";
-const ADMIN_DEFAULT_PASSWORD = "1234567"; // <-- change the default admin password here
+const ADMIN_DEFAULT_PASSWORD = "admin((@%)$!(&*))"; // <-- change the default admin password here
 
 const CATEGORY_SEED: { name: string; slug: string; dietTag: string }[] = [
   { name: "Fruits", slug: "fruits", dietTag: "veg" },
