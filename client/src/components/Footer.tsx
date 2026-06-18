@@ -57,7 +57,6 @@ export function Footer() {
             <li className="flex items-center gap-2"><Phone size={16} /> +91 98663 99514</li>
             <li className="flex items-center gap-2"><Mail size={16} /> admin@farmfreshfarmer.com</li>
             <li className="flex items-center gap-2"><Mail size={16} /> PTV Ramachandra Raju, Founder</li>
-      
           </ul>
           <div className="flex gap-3 mt-4">
             <a href="#" aria-label="Instagram" className="p-2 rounded-full bg-sidebar-accent hover-elevate"><Instagram size={16} /></a>
