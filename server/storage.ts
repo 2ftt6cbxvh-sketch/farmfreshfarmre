@@ -291,12 +291,8 @@ export async function seedDatabase() {
   const existingCoupons = db.select().from(coupons).all();
   if (existingCoupons.length === 0) {
     db.insert(coupons).values({ code: "FRESH10", discountPercent: 10, active: true, minOrder: 0, createdAt: now() }).run();
+    db.insert(coupons).values({ code: "ADMIN100", discountPercent: 100, active: true, minOrder: 0, createdAt: now() }).run();
     console.log(`[seed] created sample coupon FRESH10`);
   }
 }
-  const existingCoupons = db.select().from(coupons).all();
-  if (existingCoupons.length === 0) {
-    db.insert(coupons).values({ code: "ADMIN100", discountPercent: 100, active: true, minOrder: 0, createdAt: now() }).run();
-    console.log(`[seed] created sample coupon ADMIN100`);
-  }
 
