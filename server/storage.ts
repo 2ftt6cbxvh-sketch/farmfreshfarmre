@@ -193,7 +193,7 @@ const CATEGORY_SEED: { name: string; slug: string; dietTag: string }[] = [
   { name: "Millets", slug: "millets", dietTag: "veg" },
   { name: "Pulses", slug: "pulses", dietTag: "veg" },
   { name: "Spices", slug: "spices", dietTag: "veg" },
-  { name: "TestCategory", slug: "test-category", dietTag: "veg" },
+  //{ name: "TestCategory", slug: "test-category", dietTag: "veg" },
 ];
 
 interface SeedProduct {
@@ -250,8 +250,8 @@ const PRODUCT_SEED: SeedProduct[] = [
   { name: "Coriander Powder", categorySlug: "spices", price: 90, unit: "250 Grams", description: "Freshly ground coriander.", image: "/images/cat-spices.jpg", dietTag: "veg" },
 
   // Test Category
-  { name: "Test Product 1", categorySlug: "test-category", price: 100, unit: "1 Kg", description: "This is a test product.", image: "/images/cat-fruits.jpg", dietTag: "veg" },
-  { name: "Test Product 2", categorySlug: "test-category", price: 200, unit: "500 Grams", description: "This is another test product.", image: "/images/cat-vegetables.jpg", dietTag: "veg" },
+ /* { name: "Test Product 1", categorySlug: "test-category", price: 100, unit: "1 Kg", description: "This is a test product.", image: "/images/cat-fruits.jpg", dietTag: "veg" },
+  { name: "Test Product 2", categorySlug: "test-category", price: 200, unit: "500 Grams", description: "This is another test product.", image: "/images/cat-vegetables.jpg", dietTag: "veg" },*/
 ];
 export async function seedDatabase() {
   // Categories
