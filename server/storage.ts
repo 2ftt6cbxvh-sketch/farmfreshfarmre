@@ -193,6 +193,7 @@ const CATEGORY_SEED: { name: string; slug: string; dietTag: string }[] = [
   { name: "Millets", slug: "millets", dietTag: "veg" },
   { name: "Pulses", slug: "pulses", dietTag: "veg" },
   { name: "Spices", slug: "spices", dietTag: "veg" },
+  { name: "TestCategory", slug: "test-category", dietTag: "veg" },
 ];
 
 interface SeedProduct {
