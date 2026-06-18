@@ -248,8 +248,11 @@ const PRODUCT_SEED: SeedProduct[] = [
   { name: "Red Chilli Powder", categorySlug: "spices", price: 200, unit: "500 Grams", description: "Pure Guntur red chilli powder.", image: "/images/cat-spices.jpg", dietTag: "veg", featured: true },
   { name: "Turmeric Powder", categorySlug: "spices", price: 120, unit: "250 Grams", description: "Farm-fresh, high-curcumin turmeric.", image: "/images/cat-spices.jpg", dietTag: "veg" },
   { name: "Coriander Powder", categorySlug: "spices", price: 90, unit: "250 Grams", description: "Freshly ground coriander.", image: "/images/cat-spices.jpg", dietTag: "veg" },
-];
 
+  // Test Category
+  { name: "Test Product 1", categorySlug: "test-category", price: 100, unit: "1 Kg", description: "This is a test product.", image: "/images/cat-fruits.jpg", dietTag: "veg" },
+  { name: "Test Product 2", categorySlug: "test-category", price: 200, unit: "500 Grams", description: "This is another test product.", image: "/images/cat-vegetables.jpg", dietTag: "veg" },
+];
 export async function seedDatabase() {
   // Categories
   const existingCats = db.select().from(categories).all();
