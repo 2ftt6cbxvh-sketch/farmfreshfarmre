@@ -203,7 +203,7 @@ interface SeedProduct {
 const PRODUCT_SEED: SeedProduct[] = [
   // Fruits
   { name: "Alphonso Mango", categorySlug: "fruits", price: 350, unit: "1 Kg", description: "Sweet, juicy Alphonso mangoes hand-picked at peak ripeness.", image: "/images/p-mango.jpg", dietTag: "veg", discountPercent: 10, featured: true },
-  { name: "Sweet Bananas", categorySlug: "fruits", price: 60, unit: "1 Dozen", description: "Naturally ripened farm bananas, perfect for a healthy snack.", image: "/images/cat-fruits.jpg", dietTag: "veg" },
+  { name: "Bananas", categorySlug: "fruits", price: 60, unit: "1 Dozen", description: "Naturally ripened farm bananas, perfect for a healthy snack.", image: "/images/cat-fruits.jpg", dietTag: "veg" },
   { name: "Fresh Pomegranate", categorySlug: "fruits", price: 180, unit: "1 Kg", description: "Ruby-red, antioxidant-rich pomegranates.", image: "/images/cat-fruits.jpg", dietTag: "veg" },
   { name: "Seedless Grapes", categorySlug: "fruits", price: 90, unit: "500 Grams", description: "Crisp, sweet seedless grapes.", image: "/images/cat-fruits.jpg", dietTag: "veg" },
 
