@@ -209,10 +209,15 @@ const PRODUCT_SEED: SeedProduct[] = [
   { name: "Seedless Grapes", categorySlug: "fruits", price: 90, unit: "500 Grams", description: "Crisp, sweet seedless grapes.", image: "/images/cat-fruits.jpg", dietTag: "veg" },
 
   // Vegetables
-  { name: "Farm Tomatoes", categorySlug: "vegetables", price: 40, unit: "1 Kg", description: "Plump, vine-ripened tomatoes straight from the farm.", image: "/images/p-tomato.jpg", dietTag: "veg", featured: true },
-  { name: "Green Spinach", categorySlug: "vegetables", price: 25, unit: "1 Bunch", description: "Fresh, leafy spinach packed with iron.", image: "/images/cat-vegetables.jpg", dietTag: "veg" },
-  { name: "Lady Finger (Okra)", categorySlug: "vegetables", price: 50, unit: "500 Grams", description: "Tender okra, hand-selected for quality.", image: "/images/cat-vegetables.jpg", dietTag: "veg" },
-  { name: "Fresh Carrots", categorySlug: "vegetables", price: 45, unit: "500 Grams", description: "Crunchy, sweet carrots.", image: "/images/cat-vegetables.jpg", dietTag: "veg" },
+  { name: "Onions", categorySlug: "vegetables", price: 30, unit: "1 Kg", description: "Plump, vine-ripened tomatoes straight from the farm.", image: "/images/p-tomato.jpg", dietTag: "veg", featured: true },
+  { name: "Potatoes", categorySlug: "vegetables", price: 25, unit: "1 Kg", description: "Fresh, leafy spinach packed with iron.", image: "/images/cat-vegetables.jpg", dietTag: "veg" },
+  { name: "Tomatoes", categorySlug: "vegetables", price: 60, unit: "1 Kg", description: "Tender okra, hand-selected for quality.", image: "/images/cat-vegetables.jpg", dietTag: "veg" },
+  { name: "Carrots", categorySlug: "vegetables", price: 80, unit: "1 Kg", description: "Crunchy, sweet carrots.", image: "/images/cat-vegetables.jpg", dietTag: "veg" },
+  { name: "Beetroots", categorySlug: "vegetables", price: 70, unit: "1 Kg", description: "Crunchy, sweet beetroots.", image: "/images/cat-vegetables.jpg", dietTag: "veg" },
+  { name: "Bottlegourd", categorySlug: "vegetables", price: 35, unit: "1 Unit", description: "Crunchy, sweet bottlegourd.", image: "/images/cat-vegetables.jpg", dietTag: "veg" },
+  { name: "Capsicum", categorySlug: "vegetables", price: 90, unit: "TBA", description: "Crunchy, sweet capsicum.", image: "/images/cat-vegetables.jpg", dietTag: "veg" },
+  { name: "Green Chillies", categorySlug: "vegetables", price: 108, unit: "TBA", description: "Crunchy, sweet green chillies.", image: "/images/cat-vegetables.jpg", dietTag: "veg" },
+  { name: "White Brinjal", categorySlug: "vegetables", price: 70, unit: "TBA", description: "Crunchy, sweet white brinjal.", image: "/images/cat-vegetables.jpg", dietTag: "veg" },
 
   // Homemade Sweets
   { name: "Boondi Laddu", categorySlug: "homemade-sweets", price: 320, unit: "500 Grams", description: "Traditional ghee boondi laddus made fresh in small batches.", image: "/images/p-laddu.jpg", dietTag: "veg", discountPercent: 5, featured: true },
